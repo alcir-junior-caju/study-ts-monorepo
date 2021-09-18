@@ -10,10 +10,12 @@
   ],
   "scripts": {
     "test": "jest",
-    "lint": "eslint --fix packages/backend/src/** && eslint --fix packages/web/src/**"
+    "lint": "eslint --fix packages/backend/src/** && eslint --fix packages/web/src/**",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@monorepo/eslint-config": "*",
+    "@monorepo/husky-config": "*",
     "@types/jest": "^27.0.1",
     "jest": "^27.2.0",
     "ts-jest": "^27.0.5",
