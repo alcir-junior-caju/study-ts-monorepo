@@ -11,11 +11,13 @@
   "scripts": {
     "test": "cross-env CI=true jest --bail --findRelatedTests",
     "lint": "eslint --fix packages/backend/src/** && eslint --fix packages/web/src/**",
+    "lint:css": "stylelint --fix packages/web/src/**",
     "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "yarn lint",
+      "yarn lint:css",
       "yarn test"
     ]
   },
@@ -23,6 +25,7 @@
     "@monorepo/eslint-config": "*",
     "@monorepo/husky-config": "*",
     "@monorepo/lint-staged-config": "*",
+    "@monorepo/stylelint-config": "*",
     "@types/jest": "^27.0.1",
     "cross-env": "^7.0.3",
     "jest": "^27.2.0",

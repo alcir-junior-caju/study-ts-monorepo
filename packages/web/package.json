@@ -23,6 +23,7 @@
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.2.1",
-    "@monorepo/eslint-config": "*"
+    "@monorepo/eslint-config": "*",
+    "@monorepo/stylelint-config": "*"
   }
 }

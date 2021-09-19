@@ -19,6 +19,7 @@ module.exports = {
     'no-console': 'off',
     'no-use-before-define': 'off',
     'no-undef': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
