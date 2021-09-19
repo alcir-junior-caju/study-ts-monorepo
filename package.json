@@ -10,16 +10,16 @@
   ],
   "scripts": {
     "test": "cross-env CI=true jest --bail --findRelatedTests",
-    "lint": "eslint --fix packages/backend/src/** && eslint --fix packages/web/src/**",
-    "lint:css": "stylelint --fix packages/web/src/**",
+    "lint": "eslint --fix packages/backend/src/**/* && eslint --fix packages/web/src/**/*",
+    "lint:css": "stylelint --fix packages/web/src/**/*",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.{ts,tsx}": [
       "yarn lint",
-      "yarn lint:css",
       "yarn test"
-    ]
+    ],
+    "*.css": "yarn lint:css"
   },
   "devDependencies": {
     "@monorepo/eslint-config": "*",

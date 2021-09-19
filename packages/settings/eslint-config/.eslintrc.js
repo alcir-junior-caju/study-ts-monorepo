@@ -14,6 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
+  ignorePatterns: ['packages/**/*.{js,css}'],
   rules: {
     'prettier/prettier': 'error',
     'no-console': 'off',
