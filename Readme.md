@@ -26,4 +26,4 @@ Em packages temos o ferramental separado e o React e NodeJs, e futuramente o Rea
 
 Para quem quiser visualizar o projeto na IDE esse recurso do GitHub é bem bacana:
 
-https://github1s.com/alcir-junior-caju/study-js-next-ignite-ignews
+https://github1s.com/alcir-junior-caju/study-ts-monorepo
