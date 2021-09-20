@@ -20,6 +20,8 @@ Estudo sobre monorepo usando Yarn Wokspaces, utilizando ferramental Eslint, Styl
 
 Em packages temos o ferramental separado e o React e NodeJs, e futuramente o React Native.
 
+Para comitar é necessário seguir essa convenção: https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional#type-enum caso contrário terá um erro no commit, e cada commit roda os lints e o jest.
+
 ---
 
 #### Visualizar o projeto na IDE:
