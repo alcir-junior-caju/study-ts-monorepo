@@ -4,7 +4,8 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "test:web": "jest --bail --findRelatedTests ./src/*"
   },
   "dependencies": {
     "react": "^17.0.2",

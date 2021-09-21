@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "scripts": {
+    "test:backend": "jest --bail --findRelatedTests ./src/*"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
